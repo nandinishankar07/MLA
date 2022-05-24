@@ -1,0 +1,80 @@
+1. What does one mean by the term "machine learning"?
+
+By machine learning we mean it is a type of AI which enables software applications to become more accurate at predicting outcomes without being explicitly programmed to do so.
+
+2.Can you think of 4 distinct types of issues where it shines?
+
+Spam detection in email, Cancer diagnosis, Fraud credit card Transactions, and Automatically driving vehicles.
+
+3.What is a labeled training set, and how does it work?
+
+The training set is used to train the algorithm, and then we use the trained model on the test set to predict the response variable values that are already known. The final step is to compare the predicted responses against the actual (observed) responses to see how close they are
+
+
+4.What are the two most important tasks that are supervised?
+
+The two most common supervised tasks are regression and classification.
+
+5.Can you think of four examples of unsupervised tasks?
+
+Four common unsupervised tasks inclused clustering, visualization, dimensionality reduction , and association rule learning.
+
+6.State the machine learning model that would be best to make a robot walk through various unfamiliar terrains?
+
+
+The best Machine Learning algorithm to allow a robot to walk in unknown terrain is Reinforced Learning, where the robot can learn from response of the terrain to optimize itself.
+
+7.Which algorithm will you use to divide your customers into different groups?
+
+Using K-means to cluster customer behavior.
+
+8.Will you consider the problem of spam detection to be a supervised or unsupervised learning problem?
+
+Spam detection is a supervised machine learning problem. 
+
+9.What is the concept of an online learning system?
+
+Online machine learning is a type of machine learning (ML) that continuously improves performance by processing new input in real or near-real time. Online learning algorithms are often compared to batch learning algorithms.
+
+10.What is out-of-core learning, and how does it differ from core learning?
+
+Out-of-core learning refers to a set of algorithms working with data that cannot fit into the memory of a single computer, but that can easily fit into some data storage such as a local hard disk or web repository
+
+11.What kind of learning algorithm makes predictions using a similarity measure?
+
+Learning algorithm that relies on a similarity measure to make predictions is instance-based algorithm
+
+12.What's the difference between a model parameter and a hyperparameter in a learning algorithm?
+
+Model parameters are estimated based on the data during model training and model hyperparameters are set manually and are used in processes to help estimate model parameters. Model hyperparameters are often referred to as parameters because they are the parts of the machine learning that must be set manually and tuned.
+
+13.What are the criteria that model-based learning algorithms look for? What is the most popular method they use to achieve success? What method do they use to make predictions?
+
+The goal for a model-based algorithm is to be able to generalize to new examples. To do this, model based algorithms search for optimal values for the model's parameters, often called theta . Linear regression is used to make predictions
+
+14.Can you name four of the most important Machine Learning challenges?
+
+Underfitting of Training Data
+Overfiiting of Training data
+Lack of Training Data
+Slow Implementation
+
+15.What happens if the model performs well on the training data but fails to generalize the results to new situations? Can you think of three different options?
+
+overfitting refers to the problem of a model fitting data too well. In this case, the model performs extremely well on its training set, but does not generalize well enough when used for predictions outside of that training set.
+
+16.What exactly is a test set, and why would you need one?
+
+A test set in machine learning is a secondary (or tertiary) data set that is used to test a machine learning program after it has been trained on an initial training data set. We need a separate test set to evaluate your model on unseen data to increase the generalizing capability of the model.
+
+17.What is a validation set's purpose?
+
+A validation set is a set of data used to train artificial intelligence (AI) with the goal of finding and optimizing the best model to solve a given problem. Validation sets are also known as dev sets. A supervised AI is trained on a corpus of training data.
+
+18.What precisely is the train-dev kit, when will you need it, how do you put it to use?
+
+The goal of dev-set is to rank the models in term of their accuracy and helps us decide which model to proceed further with. Using Dev set we rank all our models in terms of their accuracy and pick the best performing model.
+
+19.What could go wrong if you use the test set to tune hyperparameters?
+
+If we use training data for hyperparameter tuning, we'll be unable to check whether or not our model is performing well on new data and this would result in overfitting.
