@@ -1,0 +1,102 @@
+1. What is the concept of human learning? Please give two examples.
+
+Human learning is a process of acquiring knowledge. Our behavior, skills, values and ethics are acquired when we process information through our minds and learn. Human learning may occur as part of education, personal development or any other informal/formal training. 
+
+2. What different forms of human learning are there? Are there any machine learning equivalents?
+
+There are three main types of learning: classical conditioning, operant conditioning, and observational learning.
+
+3. What is machine learning, and how does it work? What are the key responsibilities of machine learning?
+
+Machine learning is a form of artificial intelligence (AI) that teaches computers to think in a similar way to how humans do: Learning and improving upon past experiences. It works by exploring data and identifying patterns, and involves minimal human intervention.
+
+Responsibilities:-
+Study and transform data science prototypes.
+Design machine learning systems.
+Research and implement appropriate ML algorithms and tools.
+Develop machine learning applications according to requirements.
+Select appropriate datasets and data representation methods.
+Run machine learning tests and experiments.
+
+4. Define the terms "penalty" and "reward" in the context of reinforcement learning.
+
+A reinforcement learning algorithm, which may also be referred to as an agent, learns by interacting with its environment. The agent receives rewards by performing correctly and penalties for performing incorrectly. The agent learns without intervention from a human by maximizing its reward and minimizing its penalty
+
+5. Explain the term "learning as a search"?
+
+In general, we can think of concept learning as a search problem. The learner searches through a space of hypotheses to find the best one.
+
+6. What are the various goals of machine learning? What is the relationship between these and human learning?
+
+(1) To make the computers smarter, more intelligent. The more direct objective in this aspect is to develop systems (programs) for specific practical learning tasks in application domains. 
+(2) To develop computational models of human learning process and perform computer simulations.
+
+The primary purpose of machine learning is to discover patterns in the user data and then make predictions based on these and intricate patterns for answering business questions and solving business problems.
+
+7. Illustrate the various elements of machine learning using a real-life illustration.
+
+Image recognition is a well-known and widespread example of machine learning in the real world. It can identify an object as a digital image, based on the intensity of the pixels in black and white images or colour images.
+
+Label an x-ray as cancerous or not
+Assign a name to a photographed face (aka “tagging” on social media)
+Recognise handwriting by segmenting a single letter into smaller images
+Machine learning is also frequently used for facial recognition within an image. Using a database of people, the system can identify commonalities and match them to faces. This is often used in law enforcement.
+
+8. Provide an example of the abstraction method.
+
+Examples of data abstraction are:
+
+Reducing spatial/temporal resolution.
+Discretise continuous variables into important goal-oriented ranges.
+Classify patterns by discrete labels.
+Reduce dimensionality by projection onto a subspace.
+
+9. What is the concept of generalization? What function does it play in the machine learning process?
+
+In machine learning, generalization is a definition to demonstrate how well is a trained model to classify or forecast unseen data. Training a generalized machine learning model means, in general, it works for all subset of unseen data. An example is when we train a model to classify between dogs and cats.
+
+10. What is classification, exactly? What are the main distinctions between classification and regression?
+
+In machine learning, classification refers to a predictive modeling problem where a class label is predicted for a given example of input data. The main difference between Regression and Classification algorithms that Regression algorithms are used to predict the continuous values such as price, salary, age, etc. and Classification algorithms are used to predict/Classify the discrete values such as Male or Female, True or False, Spam or Not Spam, etc
+
+11. What is regression, and how does it work? Give an example of a real-world problem that was solved using regression.
+
+Regression is a statistical method used in finance, investing, and other disciplines that attempts to determine the strength and character of the relationship between one dependent variable (usually denoted by Y) and a series of other variables (known as independent variables).
+Example: we can say that age and height can be described using a linear regression model. Since a person's height increases as its age increases, they have a linear relationship. Regression models are commonly used as a statistical proof of claims regarding everyday facts.
+
+12. Describe the clustering mechanism in detail.
+
+Clustering is the process of making a group of abstract objects into classes of similar objects. A cluster of data objects can be treated as one group. While doing cluster analysis, we first partition the set of data into groups based on data similarity and then assign the labels to the groups.
+
+13. Make brief observations on two of the following topics:
+
+i. Machine learning algorithms are used
+
+ii. Studying under supervision
+
+Supervised learning, as the name indicates, has the presence of a supervisor as a teacher. Basically supervised learning is when we teach or train the machine using data that is well labelled. Which means some data is already tagged with the correct answer. After that, the machine is provided with a new set of examples(data) so that the supervised learning algorithm analyses the training data(set of training examples) and produces a correct outcome from labelled data.
+If the shape of the object is rounded and has a depression at the top, is red in color, then it will be labeled as –Apple.
+If the shape of the object is a long curving cylinder having Green-Yellow color, then it will be labeled as –Banana. 
+Now suppose after training the data, you have given a new separate fruit, say Banana from the basket, and asked to identify it. Since the machine has already learned the things from previous data and this time has to use it wisely. It will first classify the fruit with its shape and color and would confirm the fruit name as BANANA and put it in the Banana category. Thus the machine learns the things from training data(basket containing fruits) and then applies the knowledge to test data(new fruit). 
+
+Supervised learning is classified into two categories of algorithms: 
+
+Classification: A classification problem is when the output variable is a category, such as “Red” or “blue” , “disease” or “no disease”.
+Regression: A regression problem is when the output variable is a real value, such as “dollars” or “weight”.
+
+iii. Studying without supervision
+
+Unsupervised learning is the training of a machine using information that is neither classified nor labeled and allowing the algorithm to act on that information without guidance. Here the task of the machine is to group unsorted information according to similarities, patterns, and differences without any prior training of data. 
+
+Unlike supervised learning, no teacher is provided that means no training will be given to the machine. Therefore the machine is restricted to find the hidden structure in unlabeled data by itself. 
+For instance, suppose it is given an image having both dogs and cats which it has never seen. 
+Thus the machine has no idea about the features of dogs and cats so we can’t categorize it as ‘dogs and cats ‘. But it can categorize them according to their similarities, patterns, and differences, i.e., we can easily categorize the above picture into two parts. The first may contain all pics having dogs in them and the second part may contain all pics having cats in them. Here you didn’t learn anything before, which means no training data or examples. 
+
+It allows the model to work on its own to discover patterns and information that was previously undetected. It mainly deals with unlabelled data.
+
+Unsupervised learning is classified into two categories of algorithms: 
+
+Clustering: A clustering problem is where you want to discover the inherent groupings in the data, such as grouping customers by purchasing behavior.
+Association: An association rule learning problem is where you want to discover rules that describe large portions of your data, such as people that buy X also tend to buy Y.
+
+iv. Reinforcement learning is a form of learning based on positive reinforcement.
