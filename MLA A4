@@ -1,0 +1,73 @@
+1. What are the key tasks involved in getting ready to work with machine learning modeling?
+
+
+The 7 Key Steps To Build Your Machine Learning Model
+Step 1: Collect Data. 
+Step 2: Prepare the data. 
+Step 3: Choose the model. 
+Step 4 Train your machine model. 
+Step 5: Evaluation. 
+Step 6: Parameter Tuning. 
+Step 7: Prediction or Inference
+
+2. What are the different forms of data used in machine learning? Give a specific example for each of
+them.
+
+Most data can be categorized into 4 basic types from a Machine Learning perspective: numerical data, categorical data, time-series data, and text.
+
+3. Distinguish:
+
+1. Numeric vs. categorical attributes
+
+Categorical data refers to a data type that can be stored and identified based on the names or labels given to them. Numerical data refers to the data that is in the form of numbers, and not in any language or descriptive form.
+
+2. Feature selection vs. dimensionality reduction
+
+Feature selection is simply selecting and excluding given features without changing them. Dimensionality reduction transforms features into a lower dimension
+
+4. Make quick notes on any two of the following:
+
+1. The histogram
+
+A histogram is a display of statistical information that uses rectangles to show the frequency of data items in successive numerical intervals of equal size. In the most common form of histogram, the independent variable is plotted along the horizontal axis and the dependent variable is plotted along the vertical axis.
+
+2. Use a scatter plot
+
+Scatter plots are used to plot data points on a horizontal and a vertical axis in the attempt to show how much one variable is affected by another. Each row in the data table is represented by a marker whose position depends on its values in the columns set on the X and Y axes.
+
+3.PCA (Personal Computer Aid)
+
+Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data, sometimes using only the first few principal components and ignoring the rest.
+
+5. Why is it necessary to investigate data? Is there a discrepancy in how qualitative and quantitative
+data are explored?
+
+Data, when collected in raw form, may be difficult for the layman to understand, which is why analysts need to break down the information gathered so that others can make sense of it. For example, when founders are pitching to potential investors, they must interpret data (e.g. market size, growth rate, etc.
+
+
+6. What are the various histogram shapes? What exactly are ‘bins'?
+
+A histogram is a chart that plots the distribution of a numeric variable's values as a series of bars. Each bar typically covers a range of numeric values called a bin or class; a bar's height indicates the frequency of data points with a value within the corresponding bin.
+
+7. How do we deal with data outliers?
+
+Set up a filter in your testing tool. Even though this has a little cost, filtering out outliers is worth it. 
+Remove or change outliers during post-test analysis. 
+Change the value of outliers. 
+Consider the underlying distribution. 
+Consider the value of mild outliers.
+
+
+8. What are the various central inclination measures? Why does mean vary too much from median in
+certain data sets?
+
+A measure of central tendency is a single value that attempts to describe a set of data by identifying the central position within that set of data. As such, measures of central tendency are sometimes called measures of central location. They are also classed as summary statistics. The mean (often called the average) is most likely the measure of central tendency that you are most familiar with, but there are others, such as the median and the mode.
+
+9. Describe how a scatter plot can be used to investigate bivariate relationships. Is it possible to find
+outliers using a scatter plot?
+
+There is no special rule that tells us whether or not a point is an outlier in a scatter plot.
+
+10. Describe how cross-tabs can be used to figure out how two variables are related.
+
+C ross tabulation is a method to quantitatively analyze the relationship between multiple variables. Also known as contingency tables or cross tabs, cross tabulation groups variables to understand the correlation between different variables. It also shows how correlations change from one variable grouping to another.
